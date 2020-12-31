@@ -1,0 +1,48 @@
+/*FOREST BACKGROUND*/
+div#ForestContainer {
+
+    position: absolute;
+
+    height: auto;
+
+    min-height: 650px;
+    max-height: 750px;
+
+    width: 90%;
+    border: 2px solid black;
+    left: 5%;
+}
+
+img#ForestPicture {
+    height: 50%;
+    width: 100%;
+
+    border: 2px solid #111;
+    
+    margin-left: 0;
+}
+
+/*Main Panel container holds left, right and center panel together*/
+div#CenterPanel {
+    position: absolute;
+    display: inline-block;
+
+    height: fit-content;
+    min-height: 500px;
+
+    width: fit-content;
+    min-width: 50%;
+
+    left: 13%;
+    top: 25px;
+
+    width: 75%;
+
+    margin-bottom: 65px;
+
+    border: 2px solid #333;
+    border-radius: 10px;
+
+    background-color: #111;
+
+}
